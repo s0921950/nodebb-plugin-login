@@ -1,0 +1,18 @@
+{
+	"id": "nodebb-plugin-login",
+	"url": "",
+	"library": "./library.js",
+	"hooks": [
+		{ "hook": "static:app.load", "method": "init" },
+		{ "hook": "action:user.loggedIn", "method": "writeData"}
+	],
+	"staticDirs": {
+		"static": "./static"
+	},
+	"less": [
+		"static/style.less"
+	],
+	"scripts": [
+	],
+	 "templates": "./templates"
+}
