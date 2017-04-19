@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-login",
+  "name": "nodebb-plugin-fsc-login",
   "version": "0.1.0",
   "description": "Record user's data when login NodeBB",
   "main": "library.js",

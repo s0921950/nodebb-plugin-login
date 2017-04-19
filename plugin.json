@@ -1,5 +1,5 @@
 {
-	"id": "nodebb-plugin-login",
+	"id": "nodebb-plugin-fsc-login",
 	"url": "",
 	"library": "./library.js",
 	"hooks": [
